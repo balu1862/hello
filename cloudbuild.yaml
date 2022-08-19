@@ -5,7 +5,7 @@ steps:
     timeout: 240s
     args: ['compute', 'instances', 
            'add-iam-policy-binding', 'instance-1',
-           '--member=rambhargav0@gmail.com', 
+           '--member=user:rambhargav0@gmail.com', 
            '--role=roles/compute.instanceAdmin.v1']
     env:
       - 'CLOUDSDK_COMPUTE_REGION=us-central1'
